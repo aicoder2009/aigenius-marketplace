@@ -1,0 +1,21 @@
+{
+  "name": "vault-drop",
+  "displayName": "Vault Drop",
+  "version": "0.2.0",
+  "description": "Lets Claude ask for a password through a masked field in the Claude Code UI; the value goes to the macOS Keychain, never to the model",
+  "author": {
+    "name": "aicoder2009",
+    "url": "https://github.com/aicoder2009"
+  },
+  "homepage": "https://github.com/aicoder2009/aigenius-marketplace/tree/main/plugins/vault-drop",
+  "repository": "https://github.com/aicoder2009/aigenius-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "secrets",
+    "password",
+    "keychain",
+    "security",
+    "macos"
+  ],
+  "types": "./types/index.d.ts"
+}

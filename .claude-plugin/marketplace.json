@@ -1,0 +1,42 @@
+{
+  "name": "aigenius-marketplace",
+  "owner": { "name": "Karthick Arun", "url": "https://github.com/aicoder2009" },
+  "metadata": {
+    "description": "Karthick Arun's Claude Code mods, skills, and config.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "token-weather",
+      "source": "./plugins/token-weather",
+      "description": "Live emoji forecast of your context window above the prompt, with a one-click /handoff to a fresh context.",
+      "version": "0.3.1",
+      "category": "productivity",
+      "keywords": ["context", "ui", "mod", "handoff"]
+    },
+    {
+      "name": "vault-drop",
+      "source": "./plugins/vault-drop",
+      "description": "Give Claude a password through a masked field; it goes to the macOS Keychain, never to the model.",
+      "version": "0.2.0",
+      "category": "security",
+      "keywords": ["secrets", "keychain", "security", "macos", "mod"]
+    },
+    {
+      "name": "lmk",
+      "source": "./plugins/lmk",
+      "description": "/lmk — catch up on a project: where you left off, the open decision, where it's headed.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["skill", "status", "recap"]
+    },
+    {
+      "name": "saas-landing-page",
+      "source": "./plugins/saas-landing-page",
+      "description": "Design, build, or audit SaaS landing pages that convert without looking AI-generated.",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": ["skill", "landing-page", "design", "copy"]
+    }
+  ]
+}

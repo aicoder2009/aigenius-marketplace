@@ -1,0 +1,10 @@
+{
+  "name": "lmk",
+  "version": "1.0.0",
+  "description": "/lmk \u2014 catch up on a project: where you left off, the open decision, where it's headed.",
+  "author": {
+    "name": "Karthick Arun",
+    "url": "https://github.com/aicoder2009"
+  },
+  "license": "MIT"
+}

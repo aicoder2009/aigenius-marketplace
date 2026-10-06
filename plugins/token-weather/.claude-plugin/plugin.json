@@ -1,0 +1,10 @@
+{
+  "name": "token-weather",
+  "version": "0.3.1",
+  "description": "A live emoji forecast of the context window above the prompt: weather, fill percentage, and a chart of the last turns, with a one-click context handoff.",
+  "author": {
+    "name": "Karthick Arun",
+    "url": "https://github.com/aicoder2009"
+  },
+  "license": "MIT"
+}
