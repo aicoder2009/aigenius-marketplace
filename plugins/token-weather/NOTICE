@@ -1,0 +1,10 @@
+Token Weather
+Copyright 2026 Karthick Arun (https://github.com/aicoder2009)
+
+Based on the token-weather mod by the Claude Code DevRel team at Anthropic,
+from https://github.com/anthropics/claude-code-playground
+(claude-code/mods/token-weather), licensed under the Apache License 2.0.
+
+Changes by Karthick Arun: rewrote the mod in TypeScript (hooks/register.tsx),
+switched to emoji forecast icons, and added the /handoff command and
+one-click Handoff button (hotkey h).

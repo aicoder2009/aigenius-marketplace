@@ -22,4 +22,9 @@ Run `/handoff` (or press the **⇄ Handoff** button in the band, hotkey `h`) and
 
 ## Credits
 
-Started as a port of the `token-weather` example mod from Anthropic's Claude Code playground. I added the emoji forecast and the one-click handoff.
+- **Original mod:** [`token-weather`](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/token-weather) by the Claude Code DevRel team at Anthropic, from the [Claude Code playground](https://github.com/anthropics/claude-code-playground). It came up with the forecast band, the fill reading and the turn chart.
+- **Remix:** [Karthick Arun](https://github.com/aicoder2009). I rewrote it in TypeScript, switched to emoji forecast icons, and added `/handoff` with the one-click **⇄ Handoff** button.
+
+## License
+
+[Apache License 2.0](LICENSE), the same license as the original. See [NOTICE](NOTICE) for attribution and a list of changes. (The rest of this marketplace is MIT.)

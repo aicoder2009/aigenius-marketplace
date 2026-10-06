@@ -1,3 +1,7 @@
+// Copyright 2026 Anthropic PBC
+// Copyright 2026 Karthick Arun (modifications)
+// SPDX-License-Identifier: Apache-2.0
+//
 // Token Weather: a live forecast of the context window, above the prompt.
 // Port of anthropics/claude-code-playground mods/token-weather, with emoji icons.
 import type { EngineInterface as Engine, Register } from 'claude-code'

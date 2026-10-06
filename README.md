@@ -25,7 +25,7 @@ Then install any plugin:
 
 ### Why I built them
 
-- **token-weather**: I kept hitting compaction mid-task. A glanceable forecast plus a clean handoff fixed that. It started as a port of Anthropic's playground example; I added the emoji forecast and the handoff flow.
+- **token-weather**: I kept hitting compaction mid-task. A glanceable forecast plus a clean handoff fixed that. It's my remix of the [`token-weather` mod](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/token-weather) by Anthropic's Claude Code DevRel team: I added the emoji forecast and the handoff flow.
 - **vault-drop**: Pasting API tokens into chat felt wrong. Now secrets go to the Keychain and Claude only gets a shell snippet that reads them.
 - **lmk**: I juggle several projects. `/lmk` rebuilds my context in under a minute.
 - **saas-landing-page**: Every AI-built landing page looks the same. This skill encodes how to make one that doesn't.
@@ -72,4 +72,4 @@ Claude Code writes each mod's editor types into `.claude-plugin/types/` the firs
 
 ## License
 
-[MIT](LICENSE) © Karthick Arun
+[MIT](LICENSE) © Karthick Arun, except `token-weather`, which is Apache-2.0 (see its [NOTICE](plugins/token-weather/NOTICE)).
